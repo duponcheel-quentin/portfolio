@@ -104,7 +104,7 @@ textarea {
 }
 
 .mainColor {
-    background-color: #EBECE4;
+    background-color: #f7efde;
 }
 
 .secondColor {
@@ -116,11 +116,15 @@ textarea {
 }
 
 .marginText {
-    margin: 20px 0;
+    margin: 30px 0;
 }
 
 .colorText {
     color: #2e6475;
+}
+
+.secondColorText {
+    color: #81CEE6;
 }
  
 /*end common rules*/
@@ -136,6 +140,7 @@ body {
 h1 {
     font-family: "Vidaloka", serif;
     color: #183e49;
+    font-size: 3.5em;
 }
 
 h2 {
@@ -144,20 +149,18 @@ h2 {
     color: #2e6475;
 }
 
+main li {
+    margin: 1em 0;
+}
+
 /*end global styles*/
 
 /*start header styles*/
-
-
 
 /*end header styles*/
 
 /*start footer styles*/
 
-.li {
-    list-style-type: none;
-    padding: 0;
-}
 
 .borderIcon {
     border: 2px solid #2e6475;
@@ -179,6 +182,19 @@ h2 {
 /*end footer styles*/
 
 /*start main styles*/
+
+.secondColorText:hover {
+    text-decoration: none;
+    color: #2e6475;
+}
+
+.textSpace {
+    padding: 30px 0;
+}
+
+.marginLeft {
+    margin-left: 1.2em;
+}
 
 /*end main styles*/
 

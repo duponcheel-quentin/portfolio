@@ -126,7 +126,7 @@ textarea {
 .secondColorText {
     color: #81CEE6;
 }
- 
+
 /*end common rules*/
 
 /*start global styles*/
@@ -369,7 +369,7 @@ main li {
 
 @media screen and (min-width: 992px) {
     body {
-        width: 60%;
+        width: 90%;
         margin: auto;
     }
 }

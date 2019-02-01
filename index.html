@@ -24,40 +24,109 @@
   <![endif]-->
 
 <header>
-	<nav class="navbar navbar-expand-lg navbar-light mainColor borderBottom">
+	<nav class="navbar navbar-expand-lg navbar-light borderBottom">
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
 	  <div class="collapse navbar-collapse" id="navbarNav">
 	    <ul class="navbar-nav">
 	      <li class="nav-item active">
-	        <a class="nav-link" href="index.html">Accueil <span class="sr-only">(current)</span></a>
+	        <a class="nav-link colorTitle" href="index.html">Accueil <span class="sr-only">(current)</span></a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="presentation.html">Présentation</a>
+	        <a class="nav-link colorTitle" href="presentation.html">Présentation</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="timeline.html">Timeline</a>
+	        <a class="nav-link colorTitle" href="timeline.html">Parcours</a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="contact.html">Contact</a>
+	        <a class="nav-link colorTitle" href="contact.html">Contact <i class="fas fa-envelope"></i></a>
 	      </li>
 	    </ul>
 	  </div>
 	</nav>
 
-  <div class="jumbotron jumbotron-fluid mainColor p-0 borderBottom m-0">
-  	<div class="container">
-       <h1 class=" marginText">Quentin Duponcheel</h1>
-   	   <h2 class=" tCenter marginText">Developpeur web junior.</h2>
- 	</div>
+  <div class=" p-0 borderBottom m-0">
+  	<div class="container heightHeader headChange">
+      <h1 class=" marginText">Quentin Duponcheel</h1>
+   	  <h2 class=" tCenter marginText">Developpeur web junior.</h2>
+      </div>
+ 	  </div>
   </div>
 </header>
 
-<main>
-  <div class="d-flex borderBottom">
-  	<a class="marginText secondColorText" href="presentation.html">Venez en apprendre plus sur moi.</a>
+<main class="container">
+
+  <h3 class="my-5">Découvrir mes projets front-end</h3>
+  <div class="row">
+    <div class="col-12 col-sm-6 col-lg-4">
+      <div class="card">
+       <img class="card-img-top" src="img/ocea.png" alt="Card image cap">
+       <div class="card-body text-center">
+         <h5 class="card-title">Reproduction de la home-page Ocea</h5>
+         <button type="button" class="btn purpleBackground" data-toggle="modal" data-target="#Ocea">Découvrir <i class="fas fa-search-plus"></i></button>
+         <div class="modal fade" id="Ocea" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Reproduction de la home-page Ocea</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Reproduction de la page d'acceuil du site de sport Ocea réalisée pendant ma formation à Simplon Roubaix. Il s'agit d'une intégration en HTML CSS avec respect du responsive design afin de pratiquer l'approche mobile first et l'usage des média queries.
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn purpleBackground" data-dismiss="modal">Fermer</button>
+                <a href="https://duponcheel-quentin.github.io/ocea/"><button type="button" class="btn darkBackground">Voir le Github <i class="fab fa-github"></i></button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+      </div>
+    </div>
+
+     <div class="col-12 col-sm-6 col-lg-4">
+       <div class="card">
+        <img class="card-img-top" src="img/siteVoiture.png" alt="Card image cap">
+        <div class="card-body text-center">
+          <h5 class="card-title">Création d'un site de vente de voitures HTML/CSS</h5>
+          <button type="button" class="btn purpleBackground" data-toggle="modal" data-target="#Voiture">Découvrir <i class="fas fa-search-plus"></i></button>
+          <div class="modal fade" id="Voiture" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+           <div class="modal-dialog" role="document">
+             <div class="modal-content">
+               <div class="modal-header">
+                 <h5 class="modal-title" id="exampleModalLabel">Création d'un site de vente de voitures</h5>
+                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                   <span aria-hidden="true">&times;</span>
+                 </button>
+               </div>
+               <div class="modal-body">
+                 Création d'un site de vente, réalisée en HTML/CSS pendant ma formation à Simpon Roubaix. Il s'agit d'un projet qui avait pour but de créer un site de vente en intégrant du HTML/CSS le tout en responsive design pour appronfondir nos connaissances sur les média-quéries et l'appoche mobile first.
+               </div>
+               <div class="modal-footer">
+                 <button type="button" class="btn purpleBackground" data-dismiss="modal">Fermer</button>
+                 <a href="https://duponcheel-quentin.github.io/Site-de-vente-de-voiture/"><button type="button" class="btn darkBackground">Voir le Github <i class="fab fa-github"></i></button></a>
+               </div>
+             </div>
+           </div>
+         </div>
+        </div>
+       </div>
+    </div>
+   </div>
+   <div class="col-12 col-sm-6 col-lg-4">
+     3 of 3
+   </div>
   </div>
+
+  <h3 class="my-5">Découvrir mes réalisations en php</h3>
+  <div class="row">
+  </div>
+
+
 </main>
 
 <footer>

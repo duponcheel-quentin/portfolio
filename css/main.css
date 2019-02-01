@@ -99,12 +99,30 @@ textarea {
 
 /*start common rules*/
 
+.bodyColor {
+  background-color: white;
+}
+
 .tCenter {
     text-align: center;
 }
 
-.mainColor {
-    background-color: #f7efde;
+.purpleBackground {
+    color: white;
+    background-color: #7e1946;
+}
+
+.darkBackground {
+  background-color: #2e6475;
+  color: white;
+}
+
+.colorFlame {
+  color: #183e49;
+}
+
+.colorIcon {
+  color: #7e1946;
 }
 
 .secondColor {
@@ -112,7 +130,7 @@ textarea {
 }
 
 .borderBottom {
-    border-bottom: 1px solid #81CEE6;
+  border-bottom: 2px solid #7e1946;
 }
 
 .marginText {
@@ -127,6 +145,15 @@ textarea {
     color: #81CEE6;
 }
 
+.colorTitle {
+  color: rgba(0,0,0,.5) !important;
+}
+
+.colorTitle:hover{
+  color: #183e49 !important;
+}
+
+
 /*end common rules*/
 
 /*start global styles*/
@@ -137,16 +164,19 @@ body {
     padding: .8em .8em 0 .8em;
 }
 
-h1 {
+h1, h3, h4, h5, h6 {
     font-family: "Vidaloka", serif;
     color: #183e49;
-    font-size: 3.5em;
+}
+
+h1  {
+  font-size: 3.5em;
 }
 
 h2 {
     font-family: "frank ruhl libre", cursive;
     font-size: 2em;
-    color: #2e6475;
+    color: #7e1946;
 }
 
 main li {
@@ -156,6 +186,25 @@ main li {
 /*end global styles*/
 
 /*start header styles*/
+
+.photo {
+    border-radius: 30px;
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+  .headChange {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    float: none;
+    align-items: center;
+  }
+  .photo {
+    margin-top: 2em;
+  }
+}
 
 /*end header styles*/
 
@@ -169,19 +218,28 @@ main li {
     height: 30px;
     text-align: center;
     background-color: #2e6475;
-    color: #EBECE4;
+    color: white;
 }
 
 .borderIcon:hover {
     transition: 300ms ease-in-out;
-    border: 2px solid #EBECE4;
-    background-color: #EBECE4;
+    border: 2px solid white;
+    background-color: white;
     color: #2e6475;
 }
 
 /*end footer styles*/
 
-/*start main styles*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~start main styles~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~é*/
+
+/* page présentation */
+
+.photoPresentation {
+  width: 180px;
+  float: right;
+}
+
+/* page timeline  */
 
 .secondColorText:hover {
     text-decoration: none;
@@ -209,7 +267,7 @@ main li {
         position: absolute;
         content: " ";
         width: 1px;
-        background-color: #81CEE6;
+        background-color: #7e1946;
         left: 50%;
         margin-left: -1.5px;
     }
@@ -363,7 +421,7 @@ main li {
             left: -14px;
             right: auto;
         }
-}
+
 
 /*end main styles*/
 
